@@ -1,7 +1,7 @@
 # convert binary to number
 
 
-def decode(digits: list):
+def decode(digits: str):
     result = 0
 
     s = 1

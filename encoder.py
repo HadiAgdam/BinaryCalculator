@@ -11,7 +11,6 @@ def get_digits(number: int):
         digits.append(i)
         i = i * 2
 
-    
     return digits
 
 
@@ -27,5 +26,5 @@ def encode(number):
             digits[i] = True
         else:
             digits[i] = False
-    
+
     return digits
